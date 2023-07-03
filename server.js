@@ -1,7 +1,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const cors= require("cors");
+const corss= require("cors");
 const userRoutes = require('./routes/userRoutes');
 const chatRoutes = require('./routes/chatRoutes');
 const messageRoutes=require('./routes/messageRoutes')
@@ -14,7 +14,7 @@ const app = express()
 app.use(express.json())
 
 const cors = require('cors');
-app.use(cors({
+app.use(corss({
     origin: `${process.env.BASE_URL}`
 }));
 
