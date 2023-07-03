@@ -15,7 +15,7 @@ app.use(express.json())
 
 const cors = require('cors');
 app.use(corss({
-    origin: `${process.env.BASE_URL}`
+    origin: `*`
 }));
 
 
