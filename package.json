@@ -20,6 +20,6 @@
   "scripts": {
     "start": "node server.js"
   },
-  "author": "Indradeep",
+  "author": "Arina",
   "license": "ISC"
 }
